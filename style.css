@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top right , #140124, #320254 , rgb(64, 2, 80) , rgb(124, 2, 124));
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   width: 100vw;
+   height: 100vh;
+}
+
+.main{
+    height: 50vh;
+    width: 28.8vw;
+    background-color: #fff;
+    padding: 2vw;
+    position: relative;
+}
+
+img{
+    position: absolute;
+    height: 50%;
+    width: 52%;
+    position: absolute;
+      top: 50px; /* Adjust the distance from the bottom as needed */
+      left: 50%; /* Center the button horizontally */
+      transform: translateX(-50%);
+       border: none;
+       border: 0;
+       border-width: 0;
+}
+input{
+     position: absolute;
+      bottom: 65px; /* Adjust the distance from the bottom as needed */
+      left: 50%; /* Center the button horizontally */
+      transform: translateX(-50%);
+    height: 12%;
+    width: 80%;
+    padding: 2px;
+    line-height: 2;
+    border-radius: 8px;
+    
+}
+button{
+     position: absolute;
+      bottom: 10px; /* Adjust the distance from the bottom as needed */
+      left: 50%; /* Center the button horizontally */
+      transform: translateX(-50%);
+    height: 12%;
+    width: 80%;
+    padding: 2px;
+    cursor: pointer;
+    background-color: rgb(85, 9, 85);
+    color: #fff;
+    border-radius:10px ;
+     box-shadow: 2.2px 2.2px 2.3px rgb(211, 211, 211);
+    
+}
